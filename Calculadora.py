@@ -1,7 +1,3 @@
-#while em Python
-#utilizado para realizar ações enquanto uma condição for verdadeira.
-#Requisitos: entender condições e operadores
-
 while True:
     num_1 = input('Digite um número: ')
     num_2 = input('Digite outro número: ')
@@ -20,7 +16,7 @@ while True:
         print(num_1 - num_2)
     elif operador == '/':
         print(num_1 / num_2)
-    elif operador == '*'
+    elif operador == '*':
         print(num_1 * num_2)
     else:
         print('Operador inválido')
